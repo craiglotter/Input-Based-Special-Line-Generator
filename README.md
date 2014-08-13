@@ -1,4 +1,26 @@
-Input-Based-Special-Line-Generator
+Input Based Special Line Generator
 ==================================
 
-Input Based Special Line Generator is used to generate very similar lines with the only changing content being that which is extracted from an input text file. By using the #@# special character sequence as the new line delimiter, hundreds of almost identical lines can be generated, matching inputted terms.  Created by Craig Lotter, February 2006
+Input Based Special Line Generator is used to generate very similar lines with the only changing content being that which is extracted from an input text file. By using the #@# special character sequence as the new line delimiter, hundreds of almost identical lines can be generated, matching inputted terms. 
+
+For example: 
+A text file containing the following:
+  bbbb1
+  aaaa1
+And a construct line as so:
+  this #@# is a special code
+
+will result in:
+
+  this bbbb1 is a special code
+  this aaaa1 is a special code
+
+Created by Craig Lotter, February 2006
+
+*********************************
+
+Project Details:
+
+Coded in Visual Basic .NET using Visual Studio .NET 2003
+Implements concepts such as threading, file handling, drag & drop and text manipulation.
+Level of Complexity: Simple
